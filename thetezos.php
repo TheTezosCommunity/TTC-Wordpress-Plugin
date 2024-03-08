@@ -4,7 +4,7 @@
 * Plugin URI:      https://purplematter.com
 * Description:     TTC plugin for TTC website
 * Author:          TTC
-* Author URI:      https://thetezos.com
+* Author URI:      https://lab.thetezos.com
 * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
 
 * Text Domain:     thetezos
