@@ -1,0 +1,882 @@
+
+body {margin: 0 !important; }
+ a  {color: #f1c40f;text-decoration: none;}
+ #content-content,
+ #content {overflow: hidden;}
+/* OEPECULIAR STUFF  */
+
+
+.mec-weekly-view-dates-events article { background: #333; }
+
+
+
+
+/* Header Menu */
+
+.sub-menu.elementor-nav-menu--dropdown {border-radius:0 0 25px 25px;overflow: hidden;}
+/* Nevt events carousel */
+ 
+ .ttc-event-slider .event-carousel-type1-head {
+    background: none !important;
+  }
+
+
+ .ttc-event-slider  .event-carousel-type1-head .mec-event-image {
+    border-radius: 25px;
+    border: 4px solid #333;
+    margin-bottom: 8px;
+    background: black;
+}
+ .ttc-event-slider  .event-carousel-type1-head  .mec-event-date,
+ .ttc-event-slider  .event-carousel-type1-head  .mec-event-date-carousel {
+    display: block;
+    margin: 0;
+    width: 100% !important;
+    padding: 0;
+    text-align: center;
+    line-height:10px;
+} 
+ .ttc-event-slider .mec-owl-crousel-skin-type1  .mec-event-date-carousel { ; text-align: center !important;
+ 
+}
+ 
+ .ttc-event-slider .mec-owl-crousel-skin-type1  .mec-event-date-carousel > *  {
+    color: #101010 !important; 
+    display: inline-block !important;
+    font-size: 16px;
+    width: auto; 
+    font-weight: 600;
+    background: #ffcc00;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 0 !important;
+    position: relative !important;
+    top:auto !important; ;left: auto !important; ;right: auto;
+    
+}
+.ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-carousel-content
+.mec-owl-crousel-skin-type1 .event-carousel-type1-head  .mec-event-date-carousel span:before ,
+ .ttc-event-slider .mec-event-date-carousel .mec-event-date-info-year {display: none !important;}
+
+/* Event Card - Date Speech bubble */
+ 
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-date-carousel {
+    position: relative;
+    background: none;
+    height: auto;
+    margin: -20px 0 45px 0 !important; 
+    
+}
+
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-date-carousel:after {display: none;}
+ 
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-carousel-content 
+    {
+    display: block; 
+    border-radius: 25px;
+    border: none !important;
+    margin-top: 20px;
+    padding: 10px;
+        
+    }
+ 
+/* Event Card -Title */
+
+
+ 
+ .ttc-event-slider  .mec-owl-crousel-skin-type1 .mec-event-carousel-content h4.mec-event-carousel-title {
+    margin: 8px 0 0;
+    line-height: 22px;text-align: center;
+    
+}
+
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-carousel-content h4.mec-event-carousel-title a {
+    
+    font-size: 18px;
+
+} 
+ 
+ /* EVENTT Time - or Alld ay pill */
+  .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-time-details {text-align: center;margin:-0px 0 0;}
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-time-details .mec-start-time,
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-time-details .mec-end-time {
+    
+    padding: 1px 8px;
+    border-radius: 9px !important;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    color: #ffcc00;
+    text-transform: uppercase;
+    display: inline-block;
+ 
+ 
+}
+
+
+ .ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-carousel-content .mec-time-details, .mec-event-carousel-content .mec-time-details span {
+    color: #A68A25;
+    font-size: 10px !important;
+}
+
+ 
+ /* Pill - Discord , X-Twitter, youtube */
+ 
+ 
+ .ttc-event-slider  .mec-owl-crousel-skin-type1 .mec-event-carousel-content .mec-carousel-event-location span {
+        color: #ffcc00;
+        padding: 3px 8px;
+        border-radius:10px;
+        color:#000;
+        background: #ffcc00;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size:10px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px
+}
+
+
+
+
+.ttc-event-slider .mec-owl-crousel-skin-type1 .mec-event-data-fields {
+    display: none !important;
+}
+
+ /* Events Card Carroussel - NAV - DOTS    *   *   *    *    *    */
+.mec-owl-theme .owl-nav.disabled + .owl-dots  { 
+    margin: -20px 0 20px !important;
+}
+
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot {
+    margin: 0px; width: 3px;
+}
+
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot span {
+    background: black ;
+    border: 1px solid #333;
+    margin: 0;
+    padding: 5px; 
+}
+
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot span,
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot.active span {
+    background: none;position: relative;
+}
+
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot:hover span:after ,
+.mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot.active span:after {
+    content: " ";
+    background: #FFcc00;
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    display: block;
+    position: absolute;
+    top:3px;
+    left: 3px
+}
+
+
+
+ 
+/*  . Home Hhero de anuncios */
+.mec-slider-t4-wrap {
+    border-radius:50px;
+    overflow: hidden;
+    border: 4px solid #333;
+}
+ 
+#mec_skin_events_28  .owl-stage-outer {
+    margin: 0 0 -40px }
+
+.mec-slider-t4-wrap .mec-owl-theme .owl-nav {    position: absolute;
+    top: -20px;
+    right: -40px;
+    z-index: 10;}
+
+
+.mec-slider-t4-wrap .mec-owl-theme .owl-nav .owl-next {
+    border-radius: 0 25px 25px 0 ;
+}
+
+.mec-slider-t4-wrap .mec-owl-theme .owl-nav .owl-prev {
+    border-radius: 25px 0 0 25px  ;
+}
+
+.mec-slider-t4-content {width: 50% !important; top: auto; bottom: -40px ;border-radius: 30px}
+
+.mec-slider-t4 .mec-slider-t4-content.mec-event-grid-modern :not(.mec-color){
+    background: none ; 
+    
+}
+.mec-booking-button { border-radius:5px ; }
+
+
+/*  WEEKLY  now DAILY CALENDAR - mec_search_form_21 */
+
+.mec-calendar-events-side .mec-event-article {position: relative  } 
+.mec-event-title a {
+    width: 100%;
+    display: block;
+}
+
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-monthly-contents, 
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-monthly-contents {position: absolute; right:0px; width:calc(100% - 143px ) !important}
+ 
+#mec_skin_22 .mec-calendar {border: none;}
+#mec_skin_22 .mec-calendar-a-month {border-radius: 15px 15px 0 0 ;}
+f
+
+/* day navigation */
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day { color:#ddd;font-size:10px;}
+
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day-active{font-size:12px;} 
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day:after {
+    width: 4px;
+    height: 4px;
+    left:  calc(50% + 2px);
+    
+}
+    
+    
+
+/* end - day navigarion */
+
+#mec_skin_3260 .mec-date-labels-container.mec-calendar-d-table,
+#mec_skin_22 .mec-date-labels-container.mec-calendar-d-table {border-radius: 0 0 15px 15px; border: none;}
+
+#mec_skin_3260 .mec-daily-view-dates-events, 
+#mec_skin_22 .mec-daily-view-dates-events { padding: 0;background:#101010 ;border: none;}
+
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article ,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article ,
+ #mec_skin_22  .mec-calendar.mec-calendar-daily .mec-calendar-day-events .mec-event-article {
+     height:130px;
+     padding:0px;
+     clear: both;
+     border-radius:10px;
+     overflow: hidden;
+     border: none; 
+     margin-top:10px;
+     background: #212121;
+     }
+
+/* Featured Label */ 
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-label-captions,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-label-captions,
+#mec_skin_events_22 .mec-event-label-captions  {color:#032404; font-size: 13px; font-weight: 900;}
+
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-past-event.mec-label-featured .mec-event-detail,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-past-event.mec-label-featured .mec-event-detail,
+#mec_skin_events_22  .mec-past-event.mec-label-featured .mec-event-detail {
+    right:95px
+}
+ 
+ 
+ 
+/* WEekly View -  Image */
+
+
+
+#mec_skin_3260 .mec-event-image img,  #mec_skin_3260 .mec-event-image , 
+#mec_skin_19 .mec-event-image img,  #mec_skin_19 .mec-event-image , 
+#mec_skin_22 .mec-event-image, #mec_skin_21 .mec-event-image img 
+{
+    width: 136px; position: relartive;  
+}
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-title ,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-title ,
+#mec_skin_22 .mec-event-title {
+  
+ 
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-title,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-title {
+    margin-top: 20px;margin-right: 10px;
+}
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-title
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-title:hover ,
+#mec_skin_22 .mec-event-title:hover {color:#ffcc00;} 
+/* WEekly View -  Time and clock */
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-time,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-time,
+#mec_skin_22 .mec-event-time { font-size:10px ; position: relative;
+padding-left: 20px;
+padding-top: 10px;}
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-event-time
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-event-time{padding-top:10px;padding-left:22px;}
+
+
+#mec_skin_3260 .mec-calendar-events-side .mec-event-article .mec-sl-clock-o ,
+#mec_skin_3260 .mec-calendar-events-side .mec-sl-clock-o ,
+#mec_skin_19 .mec-calendar-events-side .mec-event-article .mec-sl-clock-o ,
+#mec_skin_19 .mec-calendar-events-side .mec-sl-clock-o ,
+
+#mec_skin_22 .mec-sl-clock-o { font-size:13px;position: absolute;left:0px;top: 9px;}
+ 
+ #mec_skin_22  .mec-daily-view-date-events .mec-event-article .mec-event-time,
+ #mec_skin_22  .mec-daily-view-date-events .mec-past-event.mec-event-article  .mec-event-time{ 
+        padding-left: 177px;
+        padding-top: 10px;
+        display: block;
+  }
+  
+ #mec_skin_22  .mec-event-article .mec-sl-clock-o { 
+     font-size:13px;
+     position: absolute;
+     left:155px;
+     top: 9px;
+     
+ }
+
+ 
+
+/* WEekly View -  Category   */
+
+ .mec-calendar-events-side .mec-event-article .mec-event-title .event-color,
+#mec_skin_22 .mec-event-title .event-color {position: absolute; top: 8px;right:10px; width: 20px; height: 15px;border-radius: 10px;}
+/* WEekly View -  Local    */
+
+  .mec-calendar-events-side .mec-event-article .mec-event-detail,
+#mec_skin_22 .mec-event-detail {
+    position: absolute;
+    right: 35px;
+    height: 18px;
+    color:#7d7d7d;
+    line-height: 14px;
+    top: 8px;
+   background: #212121;
+    padding: 2px 10px;
+    border-radius: 8px; text-transform: uppercase;font-size: 10px;
+    
+}
+    
+    
+ 
+#mec_skin_22 .mec-event-footer {display: none}
+
+ 
+#mec_skin_22 .mec-calendar.mec-calendar-daily .mec-calendar-d-table .mec-daily-view-day.mec-has-event {font-size:10px ;}
+
+/* Hide category folder icon */
+.mec-single-event-category .mec-sl-folder {display: none;}
+
+.mec-event-meta .mec-single-event-category { padding-top: 20px !important; }
+
+/*  Icon de category
+
+.mec-simple-checkboxes-search .mec-sl-folder { display: none !important;
+} **
+
+
+
+
+/* shortcode 20, resize search box / categories*/
+
+#mec_search_form_20 {
+    background-color: transparent
+}
+#mec_search_form_20 .mec-wrap .mec-totalcal-box {
+min-height: initial;
+}
+
+.mec-wrap .mec-totalcal-box label {
+    margin-right: 10px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+
+
+/* SINGLE-EVENTS   */
+
+
+
+.mec-events-template-default {background-color:#101010;}
+.mec-events-template-default .mec-container {width:100%;padding: 25px;}
+
+
+
+.mec-events-template-default  .mec-events-event-image {
+    width: 46%;
+    margin: -4px 0 65px -53px;
+}
+.mec-events-template-default  .mec-events-event-image img{
+    width: 100%;
+    border-radius: 25px;
+
+    
+}
+article .row .mec-single-event .mec-single-modern {
+    display:grid;
+}
+ .mec-single-event > .col-md-8 {
+    margin-top: -350px;
+}
+
+
+.mec-events-template-default .mec-local-time-details , 
+.mec-events-template-default .mec-event-meta,
+.mec-events-template-default .mec-next-event-details,
+.mec-events-template-default .mec-event-data-fields,
+.mec-events-template-default .mec-single-event-bar,
+.mec-events-template-default .mec-event-social,
+.mec-events-template-default .mec-event-export-module {
+    border-radius: 25px ;
+    background: #1d1d1d !important;
+      border: none !important ;
+}
+
+
+.mec-events-template-default .mec-local-time-details  {
+    text-align: center;
+ 
+}
+
+.mec-events-template-default .mec-local-time-details ul{
+    padding-left: 0
+    
+}
+
+.mec-events-template-default .mec-event-social,
+.mec-events-template-default .mec-event-export-module  {
+    width: 50%;
+    float: left;
+    height: 120px;
+    padding: 10px 3px;
+}
+
+.mec-events-template-default .mec-single-event-description a {color: #ffcc00;}
+
+.mec-single-modern .mec-single-event-bar {border: 4px solid #333; }
+.mec-single-modern .mec-single-event-bar .mec-single-event-date { background: none;}
+
+.mec-single-modern .mec-single-event-bar .mec-single-event-time {border-radius:25px;}
+
+.mec-single-modern .mec-event-data-fields a {color:  #ffcc00 !important;}
+
+.mec-single-modern .mec-single-event-location {
+    border-radius: 15px 15px 0px 0px;
+    margin: 0 ;
+    padding-top:10px;
+    color: #d2d2d2;
+}
+
+.mec-single-modern .mec-single-event-category {
+    border-radius: 0px 0px 15px 15px; 
+    padding: 0 10px 10px;
+    margin: 0; 
+    color: #d2d2d2;
+}
+    
+.mec-single-modern .mec-single-event-category .mec-events-event-categories {padding:0 10px;color: #d2d2d2; }
+
+
+.mec-single-modern .mec-next-occurrence a{border-radius: 15px;}
+
+
+/* Single Event - Sharing panel */
+.mec-events-template-default .mec-event-social{
+    border-radius: 25px;
+    width: calc(37% - 20px);
+    margin-right: 20px;
+    border:none;
+    margin:  0;
+    height:100px;
+ 
+}
+.single-mec-events .mec-event-social h3 {margin:0; padding-left:15px}
+.single-mec-events .mec-event-social .mec-event-sharing {
+    border:none;
+    margin: 10px 0 0;
+ }
+.single-mec-events .mec-event-social .mec-event-sharing .mec-event-social-icon a {
+    border-radius: 50%; border: none;
+    width: 30px;height: 30px; line-height: 15px
+}
+ 
+ 
+.single-mec-events .mec-event-content {padding:50px 20px;}
+
+.single-mec-events .mec-event-export-module {
+    border-radius: 25px ;
+    border: none;
+    width: 63%;
+    height:100px;
+    margin-left: 20px;
+    
+}
+
+.single-mec-events  .mec-event-export-module .mec-export-details ul li {
+    width:100;
+    display: block;
+}
+
+.single-mec-events  .mec-event-export-module .mec-events-button {
+    border-radius: 10px;
+    font-size: 12px;
+    padding:8px 12px;
+    width:auto;
+    margin:10px 5%;
+    display:inline-block;
+    text-align:center;
+    border: none;
+    }
+    
+.single-mec-events  .mec-event-export-module .mec-events-button:hover {background: #ffcc00 !important ; color: #282829 !important;;
+     }
+     
+.single-mec-events   .mec-event-export-module .mec-export-details  li {text-align: center !important}
+
+ .single-mec-events .mec-event-data-field-items { background:#282828; border-radius: 15px; padding: 20px;}
+.single-mec-events .mec-single-modern .mec-event-data-field-items .mec-event-data-field-name {color: #d2d2d2 !important;}
+
+.single-mec-events .mec-event-data-fields ul.mec-event-data-field-items {padding-left: 10px;}
+
+.single-mec-events .mec-event-data-fields ul.mec-event-data-field-items a {
+    background: #282823;
+    color:#111 !important;
+    padding: 3px 9px;
+    font-size:10px;
+    border-radius:5px
+    
+}
+
+.single-mec-events .mec-event-data-fields {padding:10px 0  0!important;text-align:center;}
+ 
+.single-mec-events .mec-event-data-fields ul.mec-event-data-field-items {background: none !important;margin-left:-20px;margin-top:10px;}
+.single-mec-events .mec-event-data-fields ul.mec-event-data-field-items a {color: #f1c40f !important;height:25px;display: inline-block;line-height:22px}
+
+.single-mec-events .mec-event-data-fields ul.mec-event-data-field-items a:hover {
+    background: #f1c40f;color:#111 !important;
+    
+}
+
+
+.mec-single-event .mec-event-export-module.mec-frontbox .mec-event-exporting .mec-export-details ul li a {font-size: 15px;
+    display: inline-block;
+    padding: 12px 20px;width: auto;}
+
+.single-mec-events .mec-events-meta-group.mec-events-meta-group-gmap
+{display: none;} 
+.single-mec-events .mec-events-meta-group-tags {text-align:center;color: black  !important;}
+
+.single-mec-events  .mec-events-meta-group-tags a {margin: 7px 4px;border-radius: 10px;
+    font-size: 10px;letter-spacing: 0;font-weight: 700; color: #d2d2d2;
+    position: relative;
+}
+.single-mec-events .mec-events-meta-group-tags a:first-child:before{
+    content: "Tags";
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #b5b3b3;
+    border-radius: 10px;
+    color: #101010;
+    padding:3px 8px;
+    position: absolute;
+    line-height: 16px;
+    bottom: 0px;
+    left:  -55px;
+    height: 22px; 
+    z-index: 10;
+} 
+
+
+.single-mec-events  .mec-events-template-default .mec-events-meta-group-tags a:hover {
+    background: #ffcc00; color: #101010;
+}
+
+ 
+/* Single Events Related Events */
+.mec-events-template-default .mec-related-events-wrap {margin:0; padding: 0 30px}
+.mec-events-template-default .mec-related-event-content {padding: 15px; border-radius: 0 0 15px 15px; margin: -6px 0 0;width: 100%;}
+.mec-events-template-default  .mec-related-event-post figure {border-radius: 8px;overflow: hidden;width:90%; }
+
+
+
+/* Events Archive Templates */
+.tax-mec_category .mec-container {width:100%; padding: 0 30px;}
+.tax-mec_category .mec-event-article {position: relative;border-radius: 25px; overflow: hidden; background: #282828;margin-bottom:5px;}
+.tax-mec_category .mec-event-image {width: auto;margin:0;}
+.tax-mec_category .mec-event-image img {
+    
+    width: 85px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 10px -8px;
+    
+}
+
+.tax-mec_category .mec-event-title .event-color {position: absolute;
+    top: 20px; right: 20px; width: 20px; height: 10px; border-radius: 10px
+}
+
+.tax-mec_category .mec-event-article .mec-event-loc-place {
+    position: absolute; 
+    color: #7d7d7d;
+    right: 45px;
+    top: 16px;
+    background: #212121;
+    padding: 2px 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 14px;
+    
+}
+
+
+/* Novo Coarrocel da Hompage  */
+
+#mec_skin_events_26 .mec-event-hover-carousel-type4 {
+    background: rgba(0,0,0,0.8);
+    padding-top: 50px;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#mec_skin_events_26 .mec-event-hover-carousel-type4  .mec-event-button:hover {
+    color: #111  !important;
+}
+
+
+#mec_skin_events_26  .mec-event-article  { border-radius:15px ;overflow: hidden;background: none !important ; border: none !important;}
+
+
+#mec_skin_events_26 .event-carousel-type4-head .mec-event-overlay {
+    background-color: rgba(36,36,36,0);
+}
+/* single page, smaller image on wide screens */
+
+
+
+
+/* Claendar View */
+.mec-search-form {border-radius: 25px;border: none;background:#121212;}
+ 
+ .mec-calendar  {border-radius: 25px;overflow:hidden;}
+ .mec-event-footer {display: none;}
+ .mec-calendar .mec-calendar-events-side {border-color: #333333 !important;}
+
+
+ 
+
+
+/* Cookie popup */
+.cky-consent-container .cky-consent-bar {
+    border-radius:15px !important;
+}
+.cky-btn-revisit-wrapper ,
+.cky-switch input[type="checkbox"]:checked  {
+    background: #f1c40f !important
+    
+}
+ 
+.cky-btn-revisit-wrapper .cky-btn-revisit img {
+    background: #212121 !important;
+     border: 1px solid;
+}
+.cky-btn.cky-btn-accept {
+    background: #f1c40f !important;
+    color:#101010  !important;
+    
+}
+
+button.cky-show-desc-btn,
+button.cky-show-desc-btn:hover,
+button.cky-show-desc-btn:active,
+button.cky-show-desc-btn:not(:hover):not(:active) { 
+    color: #f1c40f !important;
+}
+
+.cky-btn {
+    border-radius: 10px !important;
+    color: #f1c40f !important;
+    border-color: #f1c40f !important;
+}
+
+.cky-preference-center *,
+.cky-consent-container * {font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
+
+
+/*  FES Form  */
+.mec-fes-form {background: none !important ;}
+.mec-fes-form button[type=submit].mec-fes-sub-button {
+    background: #212121;
+    border: 4px solid  #666;
+    border-radius: 40px;
+    color: #666;
+    padding:30px 20px; 
+    margin-top: 50px;
+    line-height: 1px;
+ 
+}
+.mec-fes-form input[type=url] {border-color: #f1c40f} 
+.mec-fes-form button[type=submit].mec-fes-sub-button:hover {
+    border-color: #f1c40f;
+    color: #f1c40f;
+}
+
+.mec-fes-form .mec-title span.mec-dashicons {color: #f1c40f;}
+
+.mec-fes-form input[type=text] #mec_fes_title,
+
+div.mce-panel {background: #101010  !important;}
+
+.mec-dark-mode .mec-fes-form .mec-meta-box-fields {
+    border-radius: 25px;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 40px !important
+  
+}
+.mec-fes-form input[type=checkbox]:hover,
+.mec-fes-form .mec-form-row input[type=checkbox]:checked {
+    border-color: #f1c40f;
+}
+.mec-fes-form .mec-tooltip .dashicons-before:before {color:#f1c40f !important }
+.mec-dark-mode .mec-fes-form .mec-meta-box-fields h4 {background: #323232 }
+
+/* OPEC TEMP: display issues in form */
+.mec-fes-form #mec-location .mec-tooltip {
+    display: none;
+}
+
+#wp-mec_fes_content-editor-tools .wp-editor-tabs { display: flex; }
+
+#mec-fes-agreement .mec-form-row label { display: flex; }
+#mec-fes-agreement .mec-form-row input[type=checkbox] {
+    height: 1em;
+    margin-top: 10px;
+}
+
+#mec_meta_box_date_form .mec-title, 
+#mec_meta_box_date_form .mec-time-picker { display: flex; }
+
+#mec_meta_box_date_form .time-dv { margin-top: 8px; }
+
+/*  Calendear View */
+#mec_skin_3260 .mec_full_calendar_container_3260 {border-radius: 25px;}
+
+#mec_skin_3260 .mec-event-footer {display: none !important;}
+
+
+#mec_skin_3260 .mec-totalcal-box {border-radius: 25px;padding:30px 20px;}
+
+#mec_skin_3260 .mec-date-search, #mec_skin_3260 .mec-text-input-search { 
+    display: flex; 
+}
+
+
+@media only screen and (min-width: 960px) {
+    .mec-single-modern .mec-events-event-image img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    .mec-event-carousel-type1 .mec-event-carousel-content {height: 150px;}
+    
+    .mec-owl-crousel-skin-type1  .mec-multiple-event .mec-start-date-label {
+         left:10px;
+     }   
+    
+    .mec-owl-crousel-skin-type1 .mec-multiple-event .mec-event-date-info .mec-start-date-label {
+         top: 25px;
+         left: -179px;
+     }  
+     
+    .mec-owl-crousel-skin-type1 .mec-event-date-info .mec-start-date-label {
+            top: 22px;
+            left: -58px;
+     }
+     .mec-event-carousel-type1 .mec-owl-theme .owl-dots {margin: 10px 0;}       
+    .mec-event-carousel-type1 .mec-owl-theme .owl-dots .owl-dot {
+        padding:20px 15px;
+    }
+    #mec_skin_21 .mec-event-time    { 
+ 
+        left: 225px;
+        top: 52px;
+        font-size: 10px;
+    }
+    #mec_skin_21 .mec-sl-clock-o {
+    font-size: 11px;
+  
+    left: -16px;
+    top: 0px;
+}
+    /*  single Evevnts */
+   .mec-single-event-category .mec-sl-folder {display: none;}
+    
+    .mec-events-template-default  .mec-events-event-image {
+        width: calc(100% - 60px);
+        margin: 0px 30px 60px;
+    }
+    .mec-events-template-default .mec-local-time-detail h3.mec-local-time {margin: 0 0 20px;}
+    
+    .mec-events-template-default .mec-event-export-module,
+    .mec-events-template-default .mec-event-social {width: 100%;}
+    .mec-events-template-default .mec-event-export-module {
+        height: auto;
+        margin: 20px 0;
+        
+    }
+    
+    .mec-single-event > .col-md-8 {
+        margin-top: -50px;
+    }   
+        
+    .mec-events-template-default .mec-related-event-post  {margin-bottom: 30px;}
+    
+    /* day navigarion */
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day { color:#ddd;font-size:20px;}
+
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day-active{font-size:12px;} 
+#mec_skin_22 .mec-calendar-a-day .owl-item .mec-daily-view-day:after {
+    width: 4px;
+    height: 4px;
+
+    }
+    
+    /* Calendar View */
+    #mec_skin_19 .mec-month-navigator .mec-load-month {font-size:12px;}
+    
+    
+    /* Signle */
+ 
+    .mec-single-event .mec-events-event-image,
+    .mec-events-template-default .mec-container {
+    padding: 0px;
+    }
+    .mec-single-event {padding: 15px;}
+    .mec-single-event .mec-events-event-image {
+        padding: 10px;
+        margin: -10px 0 60px;
+        width: 100%;
+    }
+    
+     .mec-single-event  .mec-container {padding:0px !important}
+     
+     
+     #topnav { width: 91%; }
+     #topnav .elementor-icon-list-icon { width: 32px; margin-top:-5px; margin-right: 10px;}
+}
