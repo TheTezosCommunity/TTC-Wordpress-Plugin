@@ -17,7 +17,7 @@ The TTC Website plugin is designed specifically for the TTC website, adding cust
 
 ## Installation
 
-1. Download the plugin from the [GitHub repository](https://github.com/your-repo-link).
+1. Download the plugin from the [GitHub repository](https://github.com/skullzarmy/TTC-Wordpress-Plugin).
 2. Upload the plugin files to the `/wp-content/plugins/ttc-website` directory, or install the plugin through the WordPress plugins screen directly.
 3. Activate the plugin through the 'Plugins' screen in WordPress.
 
